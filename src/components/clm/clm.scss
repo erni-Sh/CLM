@@ -1,0 +1,32 @@
+.clm {
+  &__wrapper {
+    display: block;
+  }
+
+  &__inner {
+    width: 100vw;
+    position: relative;
+    padding-top: 75%;
+  }
+
+  &__layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: 700ms ease all;
+
+    &_visible {
+      opacity: 1;
+    }
+  }
+
+  &__button {
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
