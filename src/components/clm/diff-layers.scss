@@ -1,0 +1,33 @@
+@keyframes glowing {
+  0% { background-color: #fbf099; box-shadow: 0 0 5px #f9f09e; }
+  50% { background-color: #f1f09e; box-shadow: 0 18px 51px #f3e994; }
+  100% { background-color: #fbf099; box-shadow: 0 0 5px #f9f09e; }
+}
+
+.layer {
+  &__bg-names {
+    transform: translateY(-500px);
+    transition: 2s ease all;
+    &.clm__layer_visible {
+      transition: none;
+      transform: none;
+    }
+  }
+
+  &__flashing {
+    top: 13%;
+    left: 70.5%;
+    width: 7%;
+    padding-top: 7%;
+    border-radius: 50%;
+    animation: glowing 1300ms infinite;
+
+    &.clm__layer_visible {
+      opacity: 0.5;
+    }
+  }
+}
+
+
+
+
