@@ -5,5 +5,5 @@
 Я решил использовать React, потому что задача - маленькое приложение в браузере.
 Я расширил функционал. Добавил возможность двигаться по секвенции назад/вперед. А также останавливать воспроизведение.
 
-Посмотреть результат можно [https://erni-sh.github.io/clm-patiss.github.io/build](https://erni-sh.github.io/clm-patiss.github.io/build)
+Посмотреть результат можно [https://erni-sh.github.io/clm-patiss/build/](https://erni-sh.github.io/clm-patiss/build/)
 
