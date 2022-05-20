@@ -12,6 +12,7 @@
 
 body {
   background-color: rgb(247, 247, 247);
+  overflow-x: hidden;
 }
 
 #root {
